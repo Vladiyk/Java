@@ -15,6 +15,7 @@ public class Main {
                 return;
         }
 
+
         int a;
         int b;
         boolean end = false;
@@ -32,16 +33,16 @@ public class Main {
 
             switch (answer){
                 case 1:
-                    System.out.println(a + " + " + b + " = " + Addition.add(a, b));
+                    System.out.println(a + " + " + b + " = " + Calculator.add(a, b));
                     break;
                 case 2:
-                    System.out.println(a + " / " + b + " = " + Distribution.div(a, b));
+                    System.out.println(a + " / " + b + " = " + Calculator.div(a, b));
                     break;
                 case 3:
-                    System.out.println(a + " - " + b + " = " + Subtraction.sub(a, b));
+                    System.out.println(a + " - " + b + " = " + Calculator.sub(a, b));
                     break;
                 case 4:
-                    System.out.println(a + " * " + b + " = " + Multiplication.mul(a, b));
+                    System.out.println(a + " * " + b + " = " + Calculator.mul(a, b));
                     break;
             }
 
