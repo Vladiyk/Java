@@ -12,10 +12,9 @@ public class Main {
 
         String[] spilt = byLetters.spelt(name);
 
-        int length = spilt.length;
-
-        for (int i = 0; i < length; i++){
+        for (int i = 0; i < spilt.length; i++){
             System.out.print(spilt[i] + " ");
         }
+        System.out.println("\n" + "Letters in the name: " + spilt.length);
     }
 }
