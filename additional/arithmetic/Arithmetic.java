@@ -1,4 +1,4 @@
-package additional;
+package additional.arithmetic;
 
 public class Arithmetic {
     public static double arithmeticAverage(double num1, double num2, double num3){
